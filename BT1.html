@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Giới thiệu bản thân</title>
+    
+</head>
+<body>
+    <nav>
+        <a href="#upper">Giới thiệu bản thân</a> | 
+        <a href="#lower">Gửi thông tin và giao lưu cùng tôi</a>
+    </nav> <br>
+
+    <div class="upper" id="upper">
+        <img class="avatar" src="avatar.jpg" alt="Ảnh đại diện">
+        
+        <h1 class=>Giới thiệu bản thân</h1>
+        
+        <h2>Thông tin cơ bản</h2>
+        <ul>
+            <li>Tên: Trần Lương</li>
+            <li>Năm sinh: 2003</li>
+            <li>Chuyên ngành: Kỹ thuật phần mềm</li>
+        </ul>
+        
+        <h2>Sở thích</h2>
+        <h3>Món ăn</h3>
+        <ol>
+            <li>Phở</li>
+            <li>Bánh mì</li>
+            <li>Bún chả</li>
+        </ol>
+        
+        <h3>Giải trí</h3>
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Cờ vua</li>
+            <li>Đá bóng</li>
+            <li>Game trí tuệ</li>
+        </ul>
+        
+        <h4>Bài hát yêu thích</h4>
+        <ul>
+            <li>Nhạc trữ tình</li>
+            <li>Nhạc Pop</li>
+            <li>Nhạc không lời thư giãn</li>
+        </ul>
+        
+        <h2>Mục tiêu của bản thân</h2>
+        <table>
+            <tr>
+                <th>Mục tiêu</th>
+                <th>Thời hạn</th>
+                <th>Hoàn thành</th>
+            </tr>
+            <tr>
+                <td>Trung bình điểm môn đạt 8.0</td>
+                <td>DD/MM/YYYY</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                <td>DD/MM/YYYY</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>Chọn được công ty với vị trí backend developer</td>
+                <td>DD/MM/YYYY</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="lower" id="lower">
+        <h1>Gửi thông tin và giao lưu cùng tôi</h1>
+        <form>
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Tin nhắn:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <label for="gender">Giới tính</label>
+            <input type="radio" id="gender" name="gender" value="Nam"> Nam
+            <input type="radio" id="gender" name="gender" value="Nữ"> Nữ <br><br>       
+            
+            <label for="fav">Sở thích</label>
+            <input type="checkbox" id="fav" name="fav" value="Nhạc"> Nghe nhạc </input>
+            <input type="checkbox" id="fav" name="fav" value="Bơi"> Bơi lội
+            <input type="checkbox" id="fav" name="fav" value="Biển"> Biển<br><br>  
+
+            <label for="major">Ngành</label>
+            <select id="major" name="major">
+                <option value="CNTT">Công nghệ thông tin</option>
+                <option value="KTPT">Kỹ thuật phần mềm</option>
+                <option value="HTTT">Hệ thống thông tin</option>
+                <option value="MTT">Mạng máy tính</option>
+                <option value="KHMT">Khoa học máy tính</option>
+                <option value="ATTT">An toàn thông tin</option>
+                <option value="TTTT">Truyền thông và mạng máy tính</option>
+            </select><br><br>
+
+            <input type="submit" value="Gửi">
+        </form>
+    </div>
+
+    <footer>
+        <p> @2024 21522313 Trần Lương.</p>
+    </footer>
+</body>
+</html>
